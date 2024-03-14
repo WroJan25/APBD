@@ -3,6 +3,10 @@ Console.WriteLine(GetAVG([1.0,2.0,3.0,4.0,5.0]));
 Console.WriteLine(GetMax([1,2,3,4,5]));
 static double GetAVG(double[] tab)
 {
+    int[] liczby = { 10, 20, 30, 40, 50 };
+    double srednia = ObliczSrednia(liczby);
+    Console.WriteLine("Średnia wynosi: " + srednia);
+    
     double sum = 0;
     foreach (var VARIABLE in tab)
     {
@@ -26,4 +30,20 @@ static int GetMax(int[] arr)
     }
 
     return max;
+}
+
+static double ObliczSrednia(int[] tablica)
+{
+    if (tablica.Length == 0)
+    {
+        return 0; // Jeśli tablica jest pusta, zwracamy średnią jako 0
+    }
+
+    int suma = 0;
+    foreach (int liczba in tablica)
+    {
+        suma += liczba;
+    }
+
+    return (double)suma / tablica.Length;
 }
