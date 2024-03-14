@@ -55,15 +55,15 @@ static int ZnajdzMaksimum(int[] tab)
     {
         throw new ArgumentException("Tablica nie może być pusta.");
     }
+    int maksimumm = tab[0];
+    foreach (var zmiana1 in tab)
 
-    int maksimum = tab[0];
-    foreach (int liczba in tab)
     {
-        if (liczba > maksimum)
+        if (zmiana1 > maksimumm)
         {
-            maksimum = liczba;
+            maksimumm = zmiana1;
         }
     }
 
-    return maksimum;
+    return maksimumm;
 }
