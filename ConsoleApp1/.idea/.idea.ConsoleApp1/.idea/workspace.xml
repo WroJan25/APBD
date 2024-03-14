@@ -33,11 +33,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
 =======
     &quot;git-widget-placeholder&quot;: &quot;feature-new&quot;,
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; feature-new
+=======
+    &quot;git-widget-placeholder&quot;: &quot;feature-new&quot;,
+>>>>>>> feature-new
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
