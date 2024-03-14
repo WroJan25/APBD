@@ -49,15 +49,15 @@ static double ObliczSrednia(int[] tablica)
 
     return (double)suma / tablica.Length;
 }
-static int ZnajdzMaksimum(int[] tablica)
+static int ZnajdzMaksimum(int[] tab)
 {
-    if (tablica.Length == 0)
+    if (tab.Length == 0)
     {
         throw new ArgumentException("Tablica nie może być pusta.");
     }
-
-    int maksimumm = tablica[0];
-    foreach (var zmiana1 in tablica)
+    
+    int maksimumm = tab[0];
+    foreach (var zmiana1 in tab)
     {
         if (zmiana1 > maksimumm)
         {
