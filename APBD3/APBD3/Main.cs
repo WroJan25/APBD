@@ -1,6 +1,6 @@
 ﻿
 
-using System.Collections;
+
 using APBD3;
 
 int licznik=0;
